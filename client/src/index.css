@@ -1,0 +1,143 @@
+/* ===== GLOBAL ===== */
+body {
+  font-family: 'Inter', sans-serif;
+  background: #f9fafb;
+  color: #0f172a;
+  background: radial-gradient(circle at top, #eef2ff, #f8fafc);
+}
+
+
+/* CONTAINER */
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 24px;
+}
+
+/* ===== NAVBAR ===== */
+.navbar {
+  position: sticky;
+  top: 0;
+  background: rgba(255,255,255,0.7);
+  -webkit-backdrop-filter: blur(12px);
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.nav-container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 18px 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-links {
+  display: flex;
+  gap: 30px;
+}
+
+/* ===== HERO ===== */
+.hero {
+  padding: 80px 0 60px;
+}
+
+.hero-grid {
+  display: grid;
+  grid-template-columns: 1.1fr 1fr;
+  gap: 60px;
+  align-items: center;
+}
+
+/* TEXT */
+.hero h1 {
+  font-size: 48px;
+  line-height: 1.1;
+}
+
+.hero span {
+  color: #2563eb;
+}
+
+.hero p {
+  margin-top: 16px;
+  color: #64748b;
+  font-size: 16px;
+  max-width: 480px;
+}
+
+/* IMAGE FIX (IMPORTANT) */
+.hero-image-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.hero-img {
+  width: 100%;
+  max-width: 500px;
+  height: 320px;
+  object-fit: cover;
+  border-radius: 20px;
+  box-shadow: 0 20px 60px rgba(0,0,0,0.15);
+}
+
+/* BUTTON */
+.btn {
+  margin-top: 24px;
+  padding: 12px 26px;
+  border-radius: 10px;
+  border: none;
+  background: linear-gradient(135deg, #2563eb, #1d4ed8);
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  transform: translateY(-2px);
+}
+
+/* ===== SECTIONS ===== */
+.section {
+  padding: 70px 0;
+}
+
+.section.alt {
+  background: #f1f5f9;
+}
+
+/* ===== GRID ===== */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 24px;
+}
+
+/* ===== CARD ===== */
+.card {
+  background: white;
+  padding: 24px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+}
+
+/* ===== CAROUSEL FIX ===== */
+.carousel {
+  max-width: 900px;
+  margin: 40px auto;
+}
+
+.carousel img {
+  height: 300px;
+  object-fit: cover;
+  border-radius: 20px;
+}
+.reveal {
+  opacity: 1;
+}
