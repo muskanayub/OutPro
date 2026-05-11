@@ -12,7 +12,7 @@ export default function About() {
         <div className="container">
 
           <p className="badge">
-            🚀 About Outpro
+            About Outpro
           </p>
 
           <h1>
@@ -27,7 +27,7 @@ export default function About() {
           </p>
 
           <img
-            src="https://images.unsplash.com/photo-1511578314322-379afb476865"
+            src="https://plus.unsplash.com/premium_photo-1661483635418-f1a527d93aa2?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8c3BvcnRzJTIwZXZlbnRzfGVufDB8fDB8fHww"
             className="about-banner"
           />
 

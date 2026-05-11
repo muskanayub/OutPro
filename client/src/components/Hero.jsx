@@ -29,7 +29,7 @@ export default function Hero() {
         <div className="hero-text">
 
           <div className="badge">
-            🚀 Premium Sports & Event Experiences
+            Premium Sports & Event Experiences
           </div>
 
           <h1>
