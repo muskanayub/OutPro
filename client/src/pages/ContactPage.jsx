@@ -26,7 +26,7 @@ export default function ContactPage() {
     try {
 
       const response = await fetch(
-        "https://https://outpro-backend-hkqy.onrender.com/api/contact",
+        "https://outpro-backend-hkqy.onrender.com/api/contact",
         {
           method: "POST",
 
